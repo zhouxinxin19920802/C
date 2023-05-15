@@ -1,5 +1,29 @@
 {
-    "files.associations": {
-        "limits.h": "c"
-    }
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build",
+            "command": "D:\\LJS\\anzhuangbao\\winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-16.0.0-mingw-w64msvcrt-10.0.0-r5\\mingw64\\bin\\clang.exe",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
 }
